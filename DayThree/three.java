@@ -10,7 +10,7 @@ public class three {
         System.out.println("Enter any no.: ");
         int num = sc.nextInt();
 
-        String result = (num==10)? "yes" : (num==20)? "yes": num==30? "yes": num==40? "yes": num==50? "yes" : "none of these";
+        String result = (num==10 || num==20 || num==30 || num == 40 || num == 50 )? "yes" : "none of these"
 
         System.out.println(result);
         
